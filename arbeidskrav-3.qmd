@@ -281,6 +281,6 @@ print(false_positives)
 
 ```
 
-Med et signifikansnivå på 5% ville 93 studier gitt et "falskt positivt" reusltat dersom man gjorde mange gjentatte studier. Dette finner vi ut ved å se på p-verdiene til de inkluderte studiene. Siden vi satte en gjennsomnittseffekt på null, kan vi med et nivå på 0.05, betyr det at vi aksepterer er "feilmargin" på 5%. I dette tilfellet vil det resultere i 93 falske positive dersom man gjorde mange gjentatte studier. 
+Med et signifikansnivå på 5% ville 93 studier gitt et "falskt positivt" reusltat dersom man gjorde mange gjentatte studier. Dette finner vi ut ved å se på p-verdiene til de inkluderte studiene. Siden vi satte en gjennsomnittseffekt på null, og et signifikansnivå på 0.05, betyr det at vi aksepterer er "feilmargin" på 5%. I praksis betyr det at vi med en effekt på null bruker p-verdien til å vurdere hvor sannsynlig det er at vi observerer en effekt basert på tilfeldigheter. Med en effekt på null forventes det at p-verdiene fordeler seg jevnt mellom 0 og 1. Dersom vi vet at det ikke er effekt vil den andelen som får en p-verdi mellom 0 og 1 kvalifisere som falske positive. I dette tilfellet vil det som nevnt resultere i 93 falske positive dersom man gjorde mange gjentatte studier. 
 
 
