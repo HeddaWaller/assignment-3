@@ -1,6 +1,7 @@
 ---
-title: "assignment-3"
+title: "Arbeidskrav 3 - statistisk inferens"
 format: html
+author: "Kristian Dahl Hauglum, Anders Rauan, Jørgen Solberg & Hedda Waller"
 ---
 
 ```{r}
@@ -99,7 +100,7 @@ results <- bind_rows(results_8, results_40)
 
 ## Tolkning
 
-### Oppgave 3.4 - Standardavvik, gjennomsnitt og SE
+### Oppgave 3.4 - Standardavvi og gjennomsnitt av SE
 
 ```{r}
 #| echo: FALSE
