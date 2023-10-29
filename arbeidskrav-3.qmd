@@ -37,7 +37,7 @@ SE står for Standard Error (norsk: standardfeilen), og henviser til feilmargine
 T-verdi er et mål på hvor mye en estimert verdi varierer fra en nullhypotese. I vårt tilfelle forteller t-verdien hvor langt estimatet (gjennomsnittet) vårt er fra null. For "m1" er denne verdien 1.470, mens den for "m2" er 3.276. T-verdien regnes ut ved "estimat / SE". En lav SE er gjerne en indikasjon på høyere t-verdi.
 
 
-P-verdien viser hvor sannsynlig resultatene våre er, gitt en nullhypotese. Lav p-verdi viser at det er lav sannsynlighet for at resultatene man har fått er tilfeldige. Dersom utvalgsstørrelsen er stor vil estimatene bli mer nøyaktige, og det kan føre til lavere p-verdier ettersom variasjonen minsker. Dersom utvalgsstørrelsen er mindre, følger en større usikkerhet rundt estimatene og p-verdien vil bli høyere. Dersom p-verdiene er høy er sannsynligheten høyere for at resultatene kommer av en tilfeldighet. For "m1" er p-verdien 0.185, mens den for "m2" er 0.00221. Ofte brukes p < 0.005 som et signifikansnivå, der verdier < 0.005 regnes som siginifikante. I dette tilfellet er det kun "m2" som er signifikant forskjellig fra null, noe som blant annet påvirkes av utvalgsstørrelsen. 
+P-verdien viser hvor sannsynlig resultatene våre er, gitt en nullhypotese. Lav p-verdi viser at det er lav sannsynlighet for at resultatene man har fått er tilfeldige. Dersom utvalgsstørrelsen er stor vil estimatene bli mer nøyaktige, og det kan føre til lavere p-verdier ettersom variasjonen minsker. Dersom utvalgsstørrelsen er mindre, følger en større usikkerhet rundt estimatene og p-verdien vil bli høyere. Dersom p-verdiene er høy er sannsynligheten høyere for at resultatene kommer av en tilfeldighet. For "m1" er p-verdien 0.185, mens den for "m2" er 0.00221. Ofte brukes p < 0.05 som et signifikansnivå, der verdier < 0.05 regnes som siginifikante. I dette tilfellet er det kun "m2" som er signifikant forskjellig fra null, noe som blant annet påvirkes av utvalgsstørrelsen. 
 
 
 ### Oppgave 3.2 - Resultatdiskusjon
@@ -100,7 +100,7 @@ results <- bind_rows(results_8, results_40)
 
 ## Tolkning
 
-### Oppgave 3.4 - Standardavvi og gjennomsnitt av SE
+### Oppgave 3.4 - Standardavvik og gjennomsnitt av SE
 
 ```{r}
 #| echo: FALSE

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Kristian Dahl Hauglum, Anders Rauan, Jørgen Solberg &amp; Hedda Waller">
 
-<title>assignment-3</title>
+<title>Arbeidskrav 3 - statistisk inferens</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -45,13 +46,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">assignment-3</h1>
+<h1 class="title">Arbeidskrav 3 - statistisk inferens</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kristian Dahl Hauglum, Anders Rauan, Jørgen Solberg &amp; Hedda Waller </p>
+          </div>
+  </div>
     
   
     
@@ -86,7 +93,7 @@ Residual standard error: 3.019 on 39 degrees of freedom</code></pre>
 <p>Estimatet presenterer gjenomsnittsverdien av en gitt variabel i utvalget vårt. For “m1” blir denne verdien 1.840, mens den i “m2” blir 1.564. Her blir estimatet ulikt, ettersom vi benytter oss av to ulike utvalg. “m2” består av 40 prøver, mens “m1” på sin side består av 8.</p>
 <p>SE står for Standard Error (norsk: standardfeilen), og henviser til feilmarginen av et estimat. For utvalget i “m1” er SE 1.251, noe som betyr at vi kan forvente å få verdier som varierer 1.251 fra estimatet, altså gjennomsnittet. Dersom utvalget er større, påvirker dette ofte SE til å bli lavere. Dette kommer av at vi gjennom et større utvalg tilegner oss mer informasjon om utvalget. SE blir derfor mer nøyaktig. I “m2” har vi en større populasjon enn i “m1”, og vi får derfor et mer pålitelig estimat. For “m2” er SE 0.4774.</p>
 <p>T-verdi er et mål på hvor mye en estimert verdi varierer fra en nullhypotese. I vårt tilfelle forteller t-verdien hvor langt estimatet (gjennomsnittet) vårt er fra null. For “m1” er denne verdien 1.470, mens den for “m2” er 3.276. T-verdien regnes ut ved “estimat / SE”. En lav SE er gjerne en indikasjon på høyere t-verdi.</p>
-<p>P-verdien viser hvor sannsynlig resultatene våre er, gitt en nullhypotese. Lav p-verdi viser at det er lav sannsynlighet for at resultatene man har fått er tilfeldige. Dersom utvalgsstørrelsen er stor vil estimatene bli mer nøyaktige, og det kan føre til lavere p-verdier ettersom variasjonen minsker. Dersom utvalgsstørrelsen er mindre, følger en større usikkerhet rundt estimatene og p-verdien vil bli høyere. Dersom p-verdiene er høy er sannsynligheten høyere for at resultatene kommer av en tilfeldighet. For “m1” er p-verdien 0.185, mens den for “m2” er 0.00221. Ofte brukes p &lt; 0.005 som et signifikansnivå, der verdier &lt; 0.005 regnes som siginifikante. I dette tilfellet er det kun “m2” som er signifikant forskjellig fra null, noe som blant annet påvirkes av utvalgsstørrelsen.</p>
+<p>P-verdien viser hvor sannsynlig resultatene våre er, gitt en nullhypotese. Lav p-verdi viser at det er lav sannsynlighet for at resultatene man har fått er tilfeldige. Dersom utvalgsstørrelsen er stor vil estimatene bli mer nøyaktige, og det kan føre til lavere p-verdier ettersom variasjonen minsker. Dersom utvalgsstørrelsen er mindre, følger en større usikkerhet rundt estimatene og p-verdien vil bli høyere. Dersom p-verdiene er høy er sannsynligheten høyere for at resultatene kommer av en tilfeldighet. For “m1” er p-verdien 0.185, mens den for “m2” er 0.00221. Ofte brukes p &lt; 0.05 som et signifikansnivå, der verdier &lt; 0.05 regnes som siginifikante. I dette tilfellet er det kun “m2” som er signifikant forskjellig fra null, noe som blant annet påvirkes av utvalgsstørrelsen.</p>
 </section>
 <section id="oppgave-3.2---resultatdiskusjon" class="level3">
 <h3 class="anchored" data-anchor-id="oppgave-3.2---resultatdiskusjon">Oppgave 3.2 - Resultatdiskusjon</h3>
@@ -100,8 +107,8 @@ Residual standard error: 3.019 on 39 degrees of freedom</code></pre>
 </section>
 <section id="tolkning-1" class="level2">
 <h2 class="anchored" data-anchor-id="tolkning-1">Tolkning</h2>
-<section id="oppgave-3.4---standardavvik-gjennomsnitt-og-se" class="level3">
-<h3 class="anchored" data-anchor-id="oppgave-3.4---standardavvik-gjennomsnitt-og-se">Oppgave 3.4 - Standardavvik, gjennomsnitt og SE</h3>
+<section id="oppgave-3.4---standardavvik-og-gjennomsnitt-av-se" class="level3">
+<h3 class="anchored" data-anchor-id="oppgave-3.4---standardavvik-og-gjennomsnitt-av-se">Oppgave 3.4 - Standardavvik og gjennomsnitt av SE</h3>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>Standardavvik (n = 8): 1.070843 </code></pre>
@@ -125,7 +132,7 @@ Residual standard error: 3.019 on 39 degrees of freedom</code></pre>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 The downloaded binary packages are in
-    /var/folders/zv/mr0s9rtx3ps_mncwm62r3f0c0000gn/T//RtmpZRoZ0A/downloaded_packages</code></pre>
+    /var/folders/zv/mr0s9rtx3ps_mncwm62r3f0c0000gn/T//Rtmp4QeOXl/downloaded_packages</code></pre>
 </div>
 <div class="cell-output-display">
 <p><img src="arbeidskrav-3_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
@@ -160,7 +167,7 @@ The downloaded binary packages are in
 <pre><code>Antall signifikante studier for utvalgsstørrelse 40: 865 </code></pre>
 </div>
 </div>
-<p>I denne oppgaven vil vi bruke 0.05 (5%) som et terskelnivå som signaliserer statistisk signifikant effekt. Betydningen av dette er at vi skiller ut alle studiene som har en p-verdi ≤ 0.05, som gjør at vi sitter igjen med en rekke studier som har signifikante resultater. Gjør vi dette for utvalgsstørelsen på 8 sitter vi igjen med 44 studier. Sammenlignet med utvalgsstørrelsen på 40 sine 49 studier, blir antallet ganske likt.</p>
+<p>I denne oppgaven vil vi bruke 0.05 (5%) som et terskelnivå som signaliserer statistisk signifikant effekt. Betydningen av dette er at vi skiller ut alle studiene som har en p-verdi ≤ 0.05, som gjør at vi sitter igjen med en rekke studier som har signifikante resultater. Gjør vi dette for utvalgsstørelsen på 8 sitter vi igjen med 227 studier, og 865 studier for utvalgsstørrelsen på 40. Hadde vi satt signifikansnivået til å være 0.01 (1%), ville antallet vært mindre fordi vi setter strengere krav til statistisk signifikans. Da ville antallet henholdsvis vært 74 for n=8 og 666 for n=40.</p>
 </section>
 <section id="oppgave-3.7---kraften-til-t-test" class="level3">
 <h3 class="anchored" data-anchor-id="oppgave-3.7---kraften-til-t-test">Oppgave 3.7 - Kraften til t-test</h3>
@@ -182,7 +189,7 @@ The downloaded binary packages are in
 <pre><code>[1] 93</code></pre>
 </div>
 </div>
-<p>Med et signifikansnivå på 5% ville 93 studier gitt et “falskt positivt” reusltat dersom man gjorde mange gjentatte studier. Dette finner vi ut ved å se på p-verdiene til de inkluderte studiene. Siden vi satte en gjennsomnittseffekt på null, kan vi med et nivå på 0.05, betyr det at vi aksepterer er “feilmargin” på 5%. I dette tilfellet vil det resultere i 93 falske positive dersom man gjorde mange gjentatte studier.</p>
+<p>Med et signifikansnivå på 5% ville 93 studier gitt et “falskt positivt” reusltat dersom man gjorde mange gjentatte studier. Dette finner vi ut ved å se på p-verdiene til de inkluderte studiene. Siden vi satte en gjennsomnittseffekt på null, og et signifikansnivå på 0.05, betyr det at vi aksepterer er “feilmargin” på 5%. I praksis betyr det at vi med en effekt på null bruker p-verdien til å vurdere hvor sannsynlig det er at vi observerer en effekt basert på tilfeldigheter. Med en effekt på null forventes det at p-verdiene fordeler seg jevnt mellom 0 og 1. Dersom vi vet at det ikke er effekt vil den andelen som får en p-verdi mellom 0 og 1 kvalifisere som falske positive. I dette tilfellet vil det som nevnt resultere i 93 falske positive dersom man gjorde mange gjentatte studier.</p>
 </section>
 </section>
 
